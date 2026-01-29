@@ -66,9 +66,13 @@ button{
   .end-section {
     margin: 46px 176px !important;
     background-color: #F6F6F6;
+    h1{
+        padding-right: 82px;
+    }
   }
   footer{
-    margin: 46px 176px !important;
+    padding: 46px 176px !important;
+    background-color: #F6F6F6;
     .footer-all{
        width: 190px;
 
@@ -133,14 +137,16 @@ button{
       }
       .end-section {
         margin: 46px 20px !important;
+        h1{
+            padding-right: 0px;
+        }
     }
     footer{
-        margin: 46px 20px !important;
+        padding: 46px 20px !important;
         .footer-all{
             width: inherit;
-        .Building{
-            margin: 0px 80px;
-        }
+            padding: 0px 80px;
+       
          }
       
     }
